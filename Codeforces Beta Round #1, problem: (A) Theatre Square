@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+  long long int m, n, a,  k,  c;
+
+  scanf("%lld%lld%lld", &m, &n, &a);
+
+  if( m % a){ c = m / a + 1 ; }
+  else { c =  m  / a ;}
+  if( n % a){ k = n / a + 1 ; }
+  else { k =  n  / a ;}
+  printf("%lld", c*k);
+
+    return 0;
+
+
+}
